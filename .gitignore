@@ -208,6 +208,14 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# Local experiment tracking and outputs
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+results/
+analysis/
+
 # PyPI configuration file
 .pypirc
 
